@@ -1,0 +1,5 @@
+#!/bin/bash
+echo '=== Puppet Parser === '
+puppet parser validate $1
+echo '=== Puppet Lint === '
+puppet-lint $1

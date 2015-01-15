@@ -1,0 +1,22 @@
+2015-01-16
+Version 0.1.0
+=============
+
+Summary:
+Updated to comply with coding standards.
+
+Features:
+ - Added Travis CI integration
+ - Migrated to metadata.json
+
+2014-04-18
+Version 0.0.6
+=============
+
+Summary:
+
+Updated Readme and added VIM shortcuts for controlling Numbers and NerdTree.
+
+Features:
+- Added 3 keyboard shortcuts in the vimrc for controlling numbers and nerdtree.
+  Helpful when copying past from a terminal (just type F5 and F3)

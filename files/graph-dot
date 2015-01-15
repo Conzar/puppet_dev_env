@@ -1,0 +1,9 @@
+#!/bin/bash
+# check for 2 params
+if [[ -z "$1" || -z "$2" ]]; then
+  echo "Usage: graph-dot <input file> <output file>"
+  exit 0
+fi
+
+dot -Tps $1 -o $2
+exit 1

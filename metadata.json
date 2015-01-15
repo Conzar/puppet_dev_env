@@ -1,0 +1,15 @@
+{
+  "name": "conzar-puppet_dev_env",
+  "version": "0.1.0",
+  "author": "Michael Speth",
+  "summary": "Sets up a complete puppet development environment",
+  "license": "GPL-3.0+",
+  "source": "git://github.com/Conzar/puppet_dev_env.git",
+  "project_page": "https://github.com/Conzar/puppet_dev_env",
+  "issues_url": "https://github.com/Conzar/puppet_dev_env/issues",
+  "operatingsystem_support": [
+    { "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "12.04", "14.04" ] }
+  ],
+  "dependencies": [ ]
+}

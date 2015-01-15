@@ -1,0 +1,10 @@
+" Pathogen
+filetype off " Pathogen needs to run before plugin indent on
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags() " generate helptags for everything in 'runtimepath'
+filetype plugin indent on
+let g:nerdtree_tabs_open_on_console_startup=1
+set modeline
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>
+nnoremap <F5> :NERDTreeToggle<CR>
